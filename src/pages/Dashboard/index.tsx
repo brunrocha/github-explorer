@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiChevronRight } from 'react-icons/fi';
 
 import logoImg from '../../assets/logo.svg';
 
@@ -14,6 +15,33 @@ const Dashboard: React.FC = () => {
         <input placeholder="Digite o nome do repositório" />
         <button type="submit">Pesquisar</button>
       </Form>
+
+      <Repositories>
+        <a href="teste">
+          <img
+            src="https://avatars0.githubusercontent.com/u/19245644?s=460&u=9525d754b41b946b34926a087238e35daa9b8f0e&v=4"
+            alt="Bruno Rocha"
+          />
+          <div>
+            <strong>rocketseat/unforms</strong>
+            <p>Easy peasy highly scalable REactJS & React Native forms!</p>
+          </div>
+
+          <FiChevronRight size={20} />
+        </a>
+        <a href="teste">
+          <img
+            src="https://avatars0.githubusercontent.com/u/19245644?s=460&u=9525d754b41b946b34926a087238e35daa9b8f0e&v=4"
+            alt="Bruno Rocha"
+          />
+          <div>
+            <strong>rocketseat/unforms</strong>
+            <p>Easy peasy highly scalable REactJS & React Native forms!</p>
+          </div>
+
+          <FiChevronRight size={20} />
+        </a>
+      </Repositories>
     </>
   );
 };
