@@ -25,15 +25,17 @@
         "prettier"
     ],
     "rules": {
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
-        "react/jsx-filename-extension": [
-            1,
-            {
-                "extensions": [
-                    ".tsx"
-                ]
-            }
+      "prettier/prettier": "error",
+      "react/jsx-one-expression-per-line": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/jsx-filename-extension": [
+          1,
+          {
+              "extensions": [
+                  ".tsx"
+              ]
+          }
         ],
         "import/prefer-default-export": "off",
         "camelcase": "off",
@@ -46,7 +48,6 @@
                 "tsx": "never"
             }
         ],
-        "prettier/prettier": "error",
         "no-use-before-define": "off"
     },
     "settings": {
