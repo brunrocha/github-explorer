@@ -30,7 +30,7 @@ export const RepositoryInfo = styled.div`
     align-items: center;
 
     img {
-      width: 320px;
+      width: 120px;
       height: 120px;
       border-radius: 50%;
     }
